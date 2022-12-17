@@ -1,0 +1,12 @@
+1-entrar no site do palco mp3
+https://www.palcomp3.com.br
+2- informar as bandas ou artistas
+	2.1 procurar e clicar no campo de pesquisa
+	2.2 digitar banda/artistas
+	2.3 clicar em ok/pesquisar
+3- clicar no nome da banda
+4- clicar na primeira musica
+5- clicar em download
+6- clicar em proximo
+
+' baixar 40 musicas de cada artista, apos isso mudar a banda'
