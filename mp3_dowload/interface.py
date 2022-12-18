@@ -11,7 +11,7 @@ class Interface:
             [sg.Button(button_text='Baixar', key='next')]
         ]
 
-        janela = sg.Window('Login', layout)  
+        janela = sg.Window('Digite Sua Pesquisa', layout)  
         while True:
             eventos, valores = janela.read()
             if eventos == sg.WINDOW_CLOSED:

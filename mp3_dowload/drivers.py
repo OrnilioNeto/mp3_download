@@ -3,10 +3,11 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager 
 #DEFINIR OPCOES DE INICIALIZACAO
 from selenium.webdriver.chrome.options import Options
+import pyautogui
 
 def iniciar_driver_solar():
     chrome_options = Options()
-    arguments = ['--lang=pt-BR', '--window-size=1250,970',]
+    arguments = ['--lang=pt-BR', 'start-maximized',]
     for arguments in arguments:
         chrome_options.add_argument(arguments)
         
